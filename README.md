@@ -76,13 +76,14 @@ Error	Solution
 
 - QGIS Plugin Development Guide
 
-## Maintainer: Azad Rasul (azad.rasul@soran.edu.iq)
+### Maintainer: Azad Rasul (azad.rasul@soran.edu.iq)
 
-## Version: 0.2 | License: GPL-3.0
+### Version: 0.2 | License: GPL-3.0
 
 ## Citation
 APA:
-```Rasul, A. (2025). LST Calculator: A QGIS Plugin for Land Surface Temperature Calculation (Version 0.2) [Computer software]. GitHub. https://github.com/Azad77/LST_Calculator
+```
+Rasul, A. (2025). LST Calculator: A QGIS Plugin for Land Surface Temperature Calculation (Version 0.2) [Computer software]. GitHub. https://github.com/Azad77/LST_Calculator
 ```
 BibTeX:
 
