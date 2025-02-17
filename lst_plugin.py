@@ -1,3 +1,10 @@
+"""
+Author: Dr. Azad Rasul
+Affiliation: Soran University
+Email: azad.rasul@soran.edu.iq
+Year: 2025
+"""
+
 import os
 from PyQt5.QtWidgets import QAction, QFileDialog, QMessageBox
 from PyQt5.QtGui import QIcon, QColor
