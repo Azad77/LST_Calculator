@@ -23,12 +23,12 @@ A QGIS plugin for calculating Land Surface Temperature (LST) from Landsat 8 TIRS
 3. View automatically styled LST layer
 
 
-# Sample Workflow
+## Sample Workflow
 ```python
 plugin = LSTCalculator(iface)
 plugin.calculate_lst("/path/to/LC08_L1TP_123045_20220101_B10.TIF")
 ```
-Scientific Workflow 🔬
+## Scientific Workflow 🔬
 
 TOA Radiance: 
 Lλ = ML * B10 + AL
@@ -41,11 +41,11 @@ BT (°C) = (K2 / ln(K1/Lλ + 1)) - 273.15
 (K1=774.89, K2=1321.08)
 
 
-Visualization:
+## Visualization:
 
 Thermal color ramp from 20°C (blue) to 70°C (red)
 
-Plugin Structure 📁
+## Plugin Structure 📁
 ```
 LST_Calculator/
 ├── icon.png          # Plugin icon
@@ -54,30 +54,50 @@ LST_Calculator/
 └── lst_plugin.py     # Core functionality
 ```
 
-Troubleshooting 🚑:
+## Troubleshooting 🚑:
 Error	Solution
-GDAL Error 4	Verify input file is valid GeoTIFF
+- GDAL Error 4	Verify input file is valid GeoTIFF
 
-Missing Layers	Use Landsat 8 Collection 2 data
+- Missing Layers	Use Landsat 8 Collection 2 data
 
-Incorrect Values	Check MTL file constants
+- Incorrect Values	Check MTL file constants
 
 
-Future Enhancements 🚀
+## Future Enhancements 🚀
 - Automated MTL file parsing
 
 - Batch processing support
 
 - NDVI-based emissivity correction
 
-References 📚:
+## References 📚:
 
-Landsat 8 Data Users Handbook
+- Landsat 8 Data Users Handbook
 
-QGIS Plugin Development Guide
+- QGIS Plugin Development Guide
 
-Maintainer: Azad Rasul (azad.rasul@soran.edu.iq)
+## Maintainer: Azad Rasul (azad.rasul@soran.edu.iq)
 
-Version: 0.2 | License: GPL-3.0
+## Version: 0.2 | License: GPL-3.0
 
-Contribute by reporting issues or suggesting enhancements!
+## Citation
+APA:
+```Rasul, A. (2025). LST Calculator: A QGIS Plugin for Land Surface Temperature Calculation (Version 0.2) [Computer software]. GitHub. https://github.com/Azad77/LST_Calculator
+```
+BibTeX:
+
+```
+@misc{Rasul2025LST,
+  author = {Azad Rasul},
+  title = {LST Calculator: A QGIS Plugin for Land Surface Temperature Calculation},
+  year = {2025},
+  version = {0.2},
+  url = {https://github.com/Azad77/LST_Calculator},
+  note = {QGIS Plugin for calculating LST from Landsat 8 TIRS Band 10 data}
+}
+```
+IEEE:
+```
+A. Rasul, “LST Calculator: A QGIS Plugin for Land Surface Temperature Calculation,” Version 0.2, GitHub, 2025. [Online]. Available: https://github.com/Azad77/LST_Calculator
+```
+## Contribute by reporting issues or suggesting enhancements!
