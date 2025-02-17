@@ -100,4 +100,4 @@ IEEE:
 ```
 A. Rasul, “LST Calculator: A QGIS Plugin for Land Surface Temperature Calculation,” Version 0.2, GitHub, 2025. [Online]. Available: https://github.com/Azad77/LST_Calculator
 ```
-## Contribute by reporting issues or suggesting enhancements!
+#### Contribute by reporting issues or suggesting enhancements!
