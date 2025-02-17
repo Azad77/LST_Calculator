@@ -1,0 +1,8 @@
+[general]
+name=LST Calculator
+email=azad.rasul@soran.edu.iq
+author=Azad Rasul
+qgisMinimumVersion=3.0
+description=Calculate Land Surface Temperature from Landsat imagery
+version=0.2
+about=This plugin computes LST using Landsat 8 thermal bands
